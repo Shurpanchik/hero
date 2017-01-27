@@ -1,0 +1,25 @@
+{
+  "name": "heroku_hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
+  },
+   "dependencies": {
+    "botbuilder": "^3.4.4",
+    "botbuilder-azure": "0.0.1",
+    "dotenv": "^2.0.0",
+    "restify": "^4.3.0",
+    "sp-request": "^2.0.3",
+    "request":"^2.x.x"
+  },
+   "devDependencies": {
+    "node-sp-auth": "^1.2.0",
+    "request-promise": "^4.1.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
